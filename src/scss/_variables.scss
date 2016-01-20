@@ -1,0 +1,30 @@
+// Bootstrap font path update
+$icon-font-path: '../fonts/bootstrap/';
+// Font-awesome font path update
+$fa-font-path: '../fonts/font-awesome';
+// Theme resource path
+$img-path: '../img';
+
+// Colors
+$primary: #428bca;
+$secondary: #ad9aec;
+$white: #fff;
+$footer-background: #222;
+$footer-foreground: #7b7b7b;
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Megrim|Raleway:400,700|Open+Sans:400,700,400italic,300italic,700italic|Open+Sans+Condensed:300,700);
+
+$megrim: 'Megrim', cursive;
+$raleway: 'Raleway', sans-serif;
+$opensans: 'Open Sans', sans-serif;
+$opensans-condensed: 'Open Sans Condensed', sans-serif;
+
+// Type variables
+$headings-font-family: $raleway !default;
+$headings-font-weight: 700 !default;
+$headings-color: $primary !default;
+
+// Navbar Colors
+$navbar-inverse-link-color: $white !default;
+$navbar-inverse-link-hover-color: $secondary !default;

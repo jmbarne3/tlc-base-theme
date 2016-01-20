@@ -1,0 +1,96 @@
+html {
+  font-size: 16px;
+}
+
+#site-header .navbar {
+  border-radius: 0;
+  z-index: 1;
+}
+
+// Social Buttons
+.social {
+  float: left;
+}
+
+%btn-social {
+  @include sprite();
+  display: inline-block;
+  height: 35px;
+  margin-bottom: 5px;
+  width: 35px;
+}
+
+.btn-googleplus {
+  @extend %btn-social;
+  background-position: 0 0;
+}
+
+.btn-twitter {
+  @extend %btn-social;
+  background-position: -73px 0;
+}
+
+.btn-facebook {
+  @extend %btn-social;
+  background-position: -110px 0;
+}
+
+.btn-instagram {
+  @extend %btn-social;
+  background-position: -147px 0;
+}
+
+.btn-youtube {
+  @extend %btn-social;
+  background-position: -183px 0;
+}
+
+// Navbar overrides
+.navbar-nav>li>a {
+  @include font-size(16px);
+  @include transition('color .35s ease-out');
+  font-family: $opensans-condensed;
+}
+
+// Shortcodes
+.icon-button {
+  text-align: center;
+
+  a {
+    i {
+      @include transition(transform .2s ease-out);
+      border: 3px solid;
+      border-radius: 2em;
+      font-size: 40px;
+      height: 130px;
+      line-height: 130px;
+      margin: 0 auto 15px;
+      width: 130px;
+    }
+
+    &:hover {
+      i {
+        @include transform(scale(1.1));
+      }
+    }
+  }
+
+  .icon-button-title {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+
+    a {
+      color: #000;
+
+      &:hover {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .btn-lg {
+    margin-top: 20px;
+  }
+}

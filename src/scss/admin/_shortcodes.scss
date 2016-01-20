@@ -1,0 +1,15 @@
+#select-shortcode-form-inner {
+  h2,
+  h3,
+  h4 {
+    margin: 4px 0;
+  }
+
+  p.help {
+    margin: 2px 0;
+
+    &:empty {
+      display: none;
+    }
+  }
+}

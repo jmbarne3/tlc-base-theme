@@ -1,0 +1,14 @@
+.front-page {
+  .jumbotron {
+    background: transparent;
+    text-align: center;
+
+    h2 {
+      font-family: $raleway;
+      font-size: 3em;
+      font-weight: 500;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+  }
+}

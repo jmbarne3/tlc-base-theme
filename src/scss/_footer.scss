@@ -1,0 +1,22 @@
+#footer {
+  background-color: $footer-background;
+  border: 1px solid #000;
+  clear: both;
+  color: $footer-foreground;
+  font-size: 13px;
+  margin-top: 64px;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#footer-menu {
+  list-style: none;
+}
+
+footer {
+  > h2,
+  h3 {
+    color: darken($white, 15%);
+  }
+}
